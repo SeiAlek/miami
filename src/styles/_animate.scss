@@ -1,0 +1,15 @@
+@import "utils";
+
+.animate {
+  &__fade-in {
+    transition: opacity 0.6s;
+
+    &--hidden {
+      opacity: 0;
+    }
+
+    &--appeared {
+      opacity: 1;
+    }
+  }
+}

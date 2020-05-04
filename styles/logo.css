@@ -1,0 +1,13 @@
+.logo {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  display: block; }
+  .logo:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+  .logo__img {
+    height: inherit; }
+
+/*# sourceMappingURL=logo.css.map */

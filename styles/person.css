@@ -1,0 +1,40 @@
+.person {
+  text-align: center; }
+  .person__photo-link {
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden; }
+    .person__photo-link:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
+    .person__photo-link:hover, .person__photo-link:focus {
+      -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+              box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
+  .person__photo {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center; }
+  .person__name {
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 125%; }
+  .person__position {
+    margin-top: 4px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 193%;
+    color: #9fadc2; }
+  .person__testimonial {
+    margin-top: 13px; }
+
+/*# sourceMappingURL=person.css.map */

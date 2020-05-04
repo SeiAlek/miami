@@ -1,0 +1,26 @@
+.form {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 16px; }
+  .form__field {
+    padding: 17px;
+    color: #b9c1ce;
+    background-color: #f7f8ff;
+    border: 1px solid #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 8px;
+    outline: none; }
+    .form__field:focus {
+      -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+              box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+      color: #0075ff; }
+  .form__textarea {
+    resize: none;
+    overflow: auto; }
+  .form__button {
+    width: 100%;
+    margin-top: 16px; }
+
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,21 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 48px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media screen and (max-width: 1024px) {
+    .testimonials {
+      grid-template-columns: repeat(3, fit-content(240px)); } }
+  @media screen and (max-width: 768px) {
+    .testimonials {
+      grid-template-columns: 280px;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+
+/*# sourceMappingURL=testimonials.css.map */
